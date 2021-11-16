@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+}
+
+.header-logo {
+    width: 40%;
+    flex-direction: column;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.header-logo> * {
+    margin: 0;
+    text-shadow: 0px 0px 10px #8CE287, 0px 0px 10px #8CE287, 0px 0px 10px #8CE287;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.header-links {
+    width: 60%;
+    height: 100%;
+    color: white;
+    margin: auto 0;
+}
+
+.header-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header-links ul > li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.selected {
+    border-bottom: 2px solid #8CE287;
+}
